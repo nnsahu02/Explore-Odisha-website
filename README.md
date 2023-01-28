@@ -1,2 +1,0 @@
-# Explore-Odisha-website
-EXPLORE ODISHA MERN STACK PROJECT
