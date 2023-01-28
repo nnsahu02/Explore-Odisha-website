@@ -2,6 +2,7 @@ const locationModel = require('../model/locationModel');
 
 //>----------------------------fIND-Location-API----------------------------<
 const findLocation = async function (req, res) {
+    res.setHeader('Access-Control-Allow-Origin', '*')
     try {
         let queryParams = req.query
         let data = await locationModel.find({ $and: [queryParams, { isDeleted: false }] })
