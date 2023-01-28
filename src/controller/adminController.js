@@ -1,0 +1,1 @@
+const placeModel = require('../model/placeModel')
