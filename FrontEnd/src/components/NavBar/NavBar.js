@@ -11,7 +11,7 @@ function NavBar() {
                 <a className="active" href="#"><i className="fa fa-fw fa-home" /> Home</a>
                 <a href="#"><i className="fa fa-fw fa-search" /> Search</a>
                 <a href="#"><i className="fa fa-fw fa-envelope" /> Contact</a>
-                <a href="#"><i className="fa fa-fw fa-user" /> Login</a>
+                <a href="#"><i className="fa fa-fw fa-user" /> About</a>
             </div>
         </div>
     )
